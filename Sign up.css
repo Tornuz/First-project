@@ -1,0 +1,41 @@
+.box{
+	border:1px solid white;
+	padding:12px;
+	margin:200px;
+	margin-left: 440px;
+	margin-right:440px;
+	margin-top:100px;
+	background:lightgrey;
+	box-sizing:border-box;
+}
+.text input{
+	padding:10px;
+	width:90%;
+	margin:10px;
+}
+.text textarea{
+	padding: 10px;
+	width: 90%;
+	margin:10px;
+
+}
+.button input{
+	
+	padding:5px;
+	width:95.5%;
+	margin:10px;
+	background:green;
+	color:#fff;
+	}
+	.box h1{
+		margin-left:10px;
+	}
+	.box h3{
+		margin-left:10px;
+	}
+	.New{
+		margin-left:140px
+	}
+	.Already{
+		margin-left:22px;
+	}

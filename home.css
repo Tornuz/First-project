@@ -1,0 +1,114 @@
+body{
+	background-color:lightgrey;
+	color:#555;
+
+	font-size:16px;
+	line-height:1.5em;
+	margin:0;
+}
+.container{
+	width: 80%
+	
+	margin:auto;
+
+	overflow:hidden;
+}
+#main-header{
+	background-color:coral;
+	color: #fff;
+}
+#main-header h1{
+float:left;
+width:70%;
+}
+#main-header a{
+	float: right;
+	width:10%;
+	padding:20px;
+	color:#fff;
+}
+#navbar{
+	list-style: none;
+	background-color: #333;
+	color:#fff;
+}
+#navbar ul{
+	list-style:none;
+	padding:0;
+}
+#navbar li{
+	display: inline;
+	}
+#navbar a{
+		color: #fff;
+		text-decoration:none;
+		font-size:18px;
+		
+		padding-right:15px;
+}
+#showcase{
+		background-image:url('4440675-galaxy-wallpapers.jpg');
+		background-position:center;
+		color:black;
+		padding-left:50px;
+		min-height:300px;
+}
+
+#showcase h1{
+	font-size:50px;
+	line-height:1.6em;
+	padding-top:20px; 
+}
+#main{
+	float: left;
+	width: 70%;
+	padding:0 30px;
+	box-sizing: border-box;
+
+}
+#main:hover{
+	color:green;
+	background-color:black;
+}
+
+#sidebar{
+	float: right;
+	width: 30%;
+	background-color:#333;
+	color: #fff;
+	padding:12px;
+	box-sizing: border-box;
+
+}
+
+#sidebar:hover{
+	color: red;
+}
+#main-footer{
+	text-align:center;
+	background-color: #333;
+	padding:10px;
+	color: #fff;
+	margin-top: none;
+}
+@media(max-width: 600px){
+	#main{
+		width: 100%;
+		float: none;
+	}
+	#sidebar{
+		width: 100%;
+		float:none;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
